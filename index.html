@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주윤호의 자기소개 페이지</title>
+    <style>
+        body {
+            font-family: 'Pretendard', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        /* 공통 섹션 스타일 */
+        section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* 1. 자기소개 섹션 */
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .intro-text h1 { margin: 0; font-size: 1.5rem; color: #222; }
+        .intro-text p { margin: 5px 0 0; color: #666; }
+
+        /* 2. 관심분야 섹션 */
+        .interest-list {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+        .interest-item {
+            background: #e9ecef;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* 3. 목표 기술 섹션 */
+        .tech-goal p {
+            border-left: 4px solid #007bff;
+            padding-left: 15px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <section class="profile-container">
+        <div class="profile-img">J</div>
+        <div class="intro-text">
+            <h1>주윤호</h1>
+            <p>한국기술교육대학교 메카트로닉스공학부 26학번</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Interests</h2>
+        <ul class="interest-list">
+            <li class="interest-item">🎵 음악</li>
+            <li class="interest-item">🎮 게임</li>
+            <li class="interest-item">🎬 영화</li>
+            <li class="interest-item">🍕 맛집 탐방</li>
+        </ul>
+    </section>
+
+    <section class="tech-goal">
+        <h2>Tech Goals</h2>
+        <p>1. 하드웨어와 소프트웨어를 아우르는 임베디드 시스템 설계 능력을 갖추겠습니다.</p>
+        <p>2. 수학,물리,화학을 열심히 공부하여 공학의 기초를 다지겠습니다.</p>
+        <p>3. 학교에서 하는 다양한 공모전과 팀플을 통하여 역량을 높이겠습니다..</p>
+    </section>
+</div>
+
+</body>
+</html>
